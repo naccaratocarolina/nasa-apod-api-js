@@ -1,0 +1,70 @@
+/* CONFIGURAÇÕES GERAIS DA PÁGINA */
+* {
+    background-color: #2D00AA;
+    font-family: 'Inconsolata', monospace;
+}
+
+/* CONTAINER */
+.container {
+    background-color: #BBBBBB;
+    display: flex;
+    width: 60vw;
+    height: 45vh;
+    padding: 6.125px 11.5px 7px 10.5px;
+    border-style: solid;
+    border-width: .875px 2px;
+    box-shadow: -3.5px -7px 0 0 #bbb, 2.5px 6.125px 0 0 #bbb, -3.5px 6.125px 0 0 #bbb, 2.5px -7px 0 0 #bbb;
+    filter: drop-shadow(7px 8px 0 black);
+    position: absolute;
+    left: 20vw;
+    top: 25vh;
+}
+
+/* IMAGEM */
+.container img {
+    height: 45vh;
+    width: 20vw;
+}
+
+/* BOTAO */
+.container button {
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+
+    border-color: #04a1a1;
+    background: #04a1a1;
+    color: #fff;
+    border-radius: 0;
+    font-size: 24px;
+    padding: .25rem .75rem;
+    -webkit-filter: drop-shadow(7px 8px 0 #000);
+    filter: drop-shadow(7px 8px 0 black);
+    margin-top: .25rem;
+}
+
+.container button:hover {
+    border-color: #d2ff55;
+    background: #d2ff55;
+    color: black;
+}
+
+/* TITULO */
+.container h1 {
+    position: absolute;
+    top: 0;
+    left: 28vw;
+    background-color: black;
+    padding: 10px;
+    color: #BBBBBB;
+}
+
+/* TEXTO */
+.container h2 {
+    background-color: transparent;
+    font-size: 1em;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 50px;
+    padding: 30px;
+}
